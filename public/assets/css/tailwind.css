@@ -1,0 +1,15 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap' );*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.topNave { @apply inline-block text-white text-left text-xxs outline-none focus:outline-none items-center; }
+.navLink { @apply flex justify-end text-gray-400; }
+
+.userNav { @apply inline-block py-1 text-gray-500 flex justify-end }
+.userLink { @apply pl-8 hover:text-red-500 }
