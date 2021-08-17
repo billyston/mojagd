@@ -2,7 +2,7 @@
 
     <!-- Begin upper footer contents -->
     <footer class="bg-mojagd-primary 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden">
-        <div class="w-8/12 mx-auto px-1.5">
+        <div data-aos="fade-up" class="w-8/12 mx-auto px-1.5">
             <div class="py-20 text-gray-800">
                 <div class="flex flex-col grid gap-6 grid-cols-5 mt-32">
 
@@ -139,7 +139,7 @@
 
     <!-- Begin lower footer contents -->
     <footer class="bg-mojagd-extra 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden">
-        <div class="w-8/12 mx-auto px-1.5">
+        <div data-aos="fade-in" class="w-8/12 mx-auto px-1.5">
             <div class="py-20 flex flex-wrap flex-col grid gap-6 grid-cols-2">
 
                 <!-- Begin about us -->
