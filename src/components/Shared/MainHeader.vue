@@ -17,11 +17,11 @@
                 <div class="2xl:col-span-10 xl:col-span-10 lg:col-span-10 md:col-span-12 sm:col-span-12 xs:col-span-12">
                     <ul class="menu text-mojagd-primary float-right">
 
-                        <!-- Begin home -->
-                        <li><router-link to="" class="">Home</router-link></li>
-                        <!-- End home -->
+                        <!-- Begin Home -->
+                        <li><router-link to="/" class="">Home</router-link></li>
+                        <!-- End Home -->
 
-                        <!-- Begin about -->
+                        <!-- Begin About -->
                         <li class="relative">
                             <router-link to="about" class="">
                                 <div class="flex items-center">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                         </li>
-                        <!-- End about -->
+                        <!-- End About -->
 
                         <!-- Begin directorate -->
                         <li class="relative">
@@ -62,7 +62,7 @@
                         </li>
                         <!-- End directorate -->
 
-                        <!-- Begin agencies -->
+                        <!-- Begin Agencies -->
                         <li class="relative">
                             <router-link to="agencies" class="">
                                 <div class="flex items-center">
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
                         </li>
-                        <!-- End agencies -->
+                        <!-- End Agencies -->
 
                         <!-- Begin projects -->
                         <li class="relative">

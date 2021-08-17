@@ -45,15 +45,15 @@
 </template>
 
 <script>
-    import NavBar from "@/components/shared/NavBar";
-    import MainHeader from "@/components/shared/MainHeader";
-    import SliderSection from "@/components/home/SliderSection";
-    import WelcomeSection from "@/components/home/WelcomeSection";
-    import PoliciesSection from "@/components/home/PoliciesSection";
-    import LatestNewsSection from "@/components/home/EventSection";
-    import EventSection from "@/components/home/LatestNewsSection";
-    import NewsletterSection from "@/components/shared/NewsletterSection";
-    import MainFooter from "@/components/shared/MainFooter";
+    import NavBar from "@/components/Shared/NavBar";
+    import MainHeader from "@/components/Shared/MainHeader";
+    import SliderSection from "@/components/Home/SliderSection";
+    import WelcomeSection from "@/components/Home/WelcomeSection";
+    import PoliciesSection from "@/components/Home/PoliciesSection";
+    import LatestNewsSection from "@/components/Home/EventSection";
+    import EventSection from "@/components/Home/LatestNewsSection";
+    import NewsletterSection from "@/components/Shared/NewsletterSection";
+    import MainFooter from "@/components/Shared/MainFooter";
 
     export default
     {

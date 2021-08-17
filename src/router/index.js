@@ -5,7 +5,7 @@ const routes =
 [
     { path: '/', name: 'Home', component: Home },
 
-    { path: '/about', name: 'About', component: () => import( '../views/About.vue') },
+    { path: '/About', name: 'About', component: () => import( '../views/About.vue') },
     { path: '/brief-history', name: 'BriefHistory', component: () => import( '../views/BriefHistory.vue') },
     { path: '/chief-director', name: 'ChiefDirector', component: () => import( '../views/ChiefDirector.vue') },
     { path: '/past-ministers', name: 'PastMinisters', component: () => import( '../views/PastMinisters.vue') },
@@ -16,7 +16,7 @@ const routes =
     { path: '/policy-planning-budgets-monitoring-and-evaluation-directorate', name: 'PPBMED', component: () => import( '../views/PPBMED.vue') },
     { path: '/research-statistics-and-information-management', name: 'RSIM', component: () => import( '../views/RSIM.vue') },
 
-    { path: '/agencies', name: 'Agencies', component: () => import( '../views/Agencies.vue') },
+    { path: '/Agencies', name: 'Agencies', component: () => import( '../views/Agencies.vue') },
     { path: '/attorney-generals-department', name: 'AttorneyGeneralsDepartment', component: () => import( '../views/AttorneyGeneralsDepartment.vue') },
     { path: '/copyright-office', name: 'CopyrightOffice', component: () => import( '../views/CopyrightOffice.vue') },
     { path: '/council-for-law-reporting', name: 'CouncilForLawReporting', component: () => import( '../views/CouncilForLawReporting.vue') },
@@ -39,8 +39,8 @@ const routes =
 ]
 
 const router = createRouter({
-  history: createWebHistory( process.env.BASE_URL ),
-  routes
+    history: createWebHistory( process.env.BASE_URL ),
+    routes
 })
 
 export default router

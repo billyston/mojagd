@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    import ContentsWrapper from "@/components/about/ContentsWrapper";
+    import ContentsWrapper from "@/components/PPBMED/ContentsWrapper";
 
     export default
     {

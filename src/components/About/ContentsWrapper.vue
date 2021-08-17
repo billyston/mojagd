@@ -29,10 +29,10 @@
 </template>
 
 <script>
-    import NavBar from "@/components/shared/NavBar";
-    import MainHeader from "@/components/shared/MainHeader";
-    import NewsletterSection from "@/components/shared/NewsletterSection";
-    import MainFooter from "@/components/shared/MainFooter";
+    import NavBar from "@/components/Shared/NavBar";
+    import MainHeader from "@/components/Shared/MainHeader";
+    import NewsletterSection from "@/components/Shared/NewsletterSection";
+    import MainFooter from "@/components/Shared/MainFooter";
 
     export default
     {

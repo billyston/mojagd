@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    import ContentsWrapper from "@/components/home/ContentsWrapper";
+    import ContentsWrapper from "@/components/Home/ContentsWrapper";
 
     export default
     {
