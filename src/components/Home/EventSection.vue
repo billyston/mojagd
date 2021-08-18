@@ -9,9 +9,9 @@
                   <!-- Begin tab menu -->
                   <div class="rounded">
                       <ul class="flex font-bold">
-                          <li class="w-full last:mr-0 cursor-pointer"><a class="text-sm text-center px-5 py-8 block leading-normal border-b" @click="toggleTabs(1)" v-bind:class="{'text-gray-600 bg-white' : tabs.openTab !== 1, 'text-mojagd-secondary' : tabs.openTab === 1}">Projects</a></li>
-                          <li class="w-full last:mr-0 cursor-pointer"><a class="text-sm text-center px-5 py-8 block leading-normal border-b" @click="toggleTabs(2)" v-bind:class="{'text-gray-600 bg-white' : tabs.openTab !== 2, 'text-mojagd-secondary' : tabs.openTab === 2}">Press Releases</a></li>
-                          <li class="w-full last:mr-0 cursor-pointer"><a class="text-sm text-center px-5 py-8 block leading-normal border-b" @click="toggleTabs(3)" v-bind:class="{'text-gray-600 bg-white' : tabs.openTab !== 3, 'text-mojagd-secondary' : tabs.openTab === 3}">Downloads</a></li>
+                          <li class="w-full last:mr-0 cursor-pointer"><a class="text-sm text-center px-5 py-8 block leading-normal border-b" @click="toggleTabs(1)" v-bind:class="{'text-gray-600 bg-white' : tabs.openTab !== 1, 'text-mojagd-extra' : tabs.openTab === 1}">Projects</a></li>
+                          <li class="w-full last:mr-0 cursor-pointer"><a class="text-sm text-center px-5 py-8 block leading-normal border-b" @click="toggleTabs(2)" v-bind:class="{'text-gray-600 bg-white' : tabs.openTab !== 2, 'text-mojagd-extra' : tabs.openTab === 2}">Press Releases</a></li>
+                          <li class="w-full last:mr-0 cursor-pointer"><a class="text-sm text-center px-5 py-8 block leading-normal border-b" @click="toggleTabs(3)" v-bind:class="{'text-gray-600 bg-white' : tabs.openTab !== 3, 'text-mojagd-extra' : tabs.openTab === 3}">Downloads</a></li>
                       </ul>
                   </div>
                   <!-- End tab menu -->
@@ -21,23 +21,23 @@
                       <div class="flex-auto">
                           <div class="tab-content tab-space px-5">
 
-                              <!-- Begin overview -->
+                              <!-- Begin projects -->
                               <div v-bind:class="{ 'hidden': tabs.openTab !== 1, 'block': tabs.openTab === 1 }">
-                                  <p class="p-10">Contents coming soon</p>
+                                  <p class="p-10">Projects contents coming soon</p>
                               </div>
-                              <!-- End overview -->
+                              <!-- End projects -->
 
-                              <!-- Begin customers review -->
+                              <!-- Begin press releases -->
                               <div v-bind:class="{ 'hidden': tabs.openTab !== 2, 'block': tabs.openTab === 2 }">
-                                  <p class="p-10">Contents coming soon</p>
+                                  <p class="p-10">Press Releases contents coming soon</p>
                               </div>
-                              <!-- End image -->
+                              <!-- End press releases -->
 
-                              <!-- Begin specifications -->
+                              <!-- Begin downloads -->
                               <div v-bind:class="{ 'hidden': tabs.openTab !== 3, 'block': tabs.openTab === 3 }">
-                                  <p class="p-10">Contents coming soon</p>
+                                  <p class="p-10">Downloads contents coming soon</p>
                               </div>
-                              <!-- End specifications -->
+                              <!-- End downloads -->
 
                           </div>
                       </div>

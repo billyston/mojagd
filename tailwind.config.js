@@ -38,21 +38,25 @@ module.exports =
         {
             ...theme('colors'),
             'mojagd-primary': '#062135',
-            'mojagd-secondary': '#d3a756',
-            'mojagd-extra': '#0a314d',
+            'mojagd-secondary': '#0a314d',
+            'mojagd-third': '#2d8bc3',
+            'mojagd-extra': '#d3a756',
         }),
 
         backgroundImage: theme => (
         {
             'slider-bg': "url('/img/sliders/slider1.jpg')",
             'parallax-1': "url('/img/backgrounds/wavy-bg.png')",
+            'parallax-2': "url('/img/sliders/slider1.jpg')",
         }),
 
         textColor: theme => (
         {
             ...theme('colors'),
             'mojagd-primary': '#062135',
-            'mojagd-secondary': '#d3a756',
+            'mojagd-secondary': '#0a314d',
+            'mojagd-third': '#2d8bc3',
+            'mojagd-extra': '#d3a756',
         }),
 
         borderColor: theme => (
@@ -60,7 +64,10 @@ module.exports =
             DEFAULT: theme('colors.gray.200', 'currentColor'),
             ...theme('colors'),
             'mojagd-primary': '#062135',
-            'mojagd-secondary': '#2d8bc3',
+            'mojagd-secondary': '#0a314d',
+            'mojagd-third': '#2d8bc3',
+            'mojagd-extra': '#d3a756',
+
         }),
 
         screens:
@@ -75,7 +82,21 @@ module.exports =
 
         extend:
         {
-            // mojagd: [ "Montserrat"]
+            animation:
+            {
+                blob: "blob 7s infinite",
+            },
+
+            keyframes:
+            {
+                blob:
+                {
+                    "0%": { transform: "translate(0px, 0px) scale(1)" },
+                    "33%": { transform: "translate(30px, -50px) scale(1.1)" },
+                    "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
+                    "100%": { transform: "translate(0px, 0px) scale(1)" },
+                }
+            }
         },
     },
 

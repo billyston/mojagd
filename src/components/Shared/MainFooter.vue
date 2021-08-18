@@ -138,7 +138,7 @@
     <!-- End upper footer contents -->
 
     <!-- Begin lower footer contents -->
-    <footer class="bg-mojagd-extra 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden">
+    <footer class="bg-mojagd-secondary 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden">
         <div data-aos="fade-in" class="w-8/12 mx-auto px-1.5">
             <div class="py-20 flex flex-wrap flex-col grid gap-6 grid-cols-2">
 
@@ -167,7 +167,7 @@
     <!-- End lower footer contents -->
 
     <!-- Begin copyright -->
-    <footer class="bg-mojagd-extra 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden">
+    <footer class="bg-mojagd-secondary 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden">
         <div class="w-8/12 mx-auto px-1.5">
             <div class="flex m-auto border-t border-gray-700 text-gray-600 text-sm flex-col">
                 <div class="my-5">© Copyright. All Rights Reserved.</div>

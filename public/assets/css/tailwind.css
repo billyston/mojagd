@@ -7,6 +7,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities
+{
+    .animation-delay-2000 { animation-delay: 2s; }
+    .animation-delay-4000 { animation-delay: 4s; }
+}
 
 .topNave { @apply inline-block text-white text-left text-xxs outline-none focus:outline-none items-center; }
 .navLink { @apply flex justify-end text-gray-400; }
