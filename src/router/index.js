@@ -5,7 +5,6 @@ const routes =
 [
     { path: '/', name: 'Home', component: Home },
 
-    { path: '/About', name: 'About', component: () => import( '../views/About.vue') },
     { path: '/brief-history', name: 'BriefHistory', component: () => import( '../views/BriefHistory.vue') },
     { path: '/chief-director', name: 'ChiefDirector', component: () => import( '../views/ChiefDirector.vue') },
     { path: '/past-ministers', name: 'PastMinisters', component: () => import( '../views/PastMinisters.vue') },

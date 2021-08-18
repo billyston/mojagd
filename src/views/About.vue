@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    import ContentsWrapper from "@/components/About/ContentsWrapper";
+    import ContentsWrapper from "@/components/BriefHistory1/ContentsWrapper";
 
     export default
     {

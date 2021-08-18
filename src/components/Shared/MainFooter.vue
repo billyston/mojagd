@@ -142,12 +142,12 @@
         <div data-aos="fade-in" class="w-8/12 mx-auto px-1.5">
             <div class="py-20 flex flex-wrap flex-col grid gap-6 grid-cols-2">
 
-                <!-- Begin About us -->
+                <!-- Begin BriefHistory us -->
                 <div class="text-gray-300">
                     <h1 class="font-bold mb-2">About The Office of The Attorney General And Ministry O Justice</h1>
                     <p class="text-sm text-gray-500">The Attorney General’s Department came into being in 1877.  It first started as the office of the Judicial Assessor, who was the Principal Legal Advisor to the Executive Council established in 1850 for the administration of the Gold Coast Colony. Then with the promulgation of the first Supreme Court Ordinance in 1876, which provided the framework... <router-link to="/" class="hover:text-gray-400 font-bold">Read more</router-link></p>
                 </div>
-                <!-- End About us -->
+                <!-- End BriefHistory us -->
 
                 <!-- Begin policies contents -->
                 <div class="text-gray-300">
