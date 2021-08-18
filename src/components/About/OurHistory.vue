@@ -1,8 +1,8 @@
 <template>
 
     <!-- Begin contents -->
-    <section class="container m-auto">
-        <div class="mx-auto">
+    <section class="">
+        <div class="container m-auto">
             <div class="p-32">
                 <div class="text-justify">
                     <div data-aos="fade-down" class="w-40 text-center text-mojagd-primary font-bold text-2xl mb-5 border-b border-mojagd-extra pb-2 m-auto">Our History</div>

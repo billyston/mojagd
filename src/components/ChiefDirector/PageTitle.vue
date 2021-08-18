@@ -7,8 +7,8 @@
 
             <!-- Begin page title -->
             <div class="py-28 text-center">
-                <h1 data-aos="fade-right" class="text-5xl font-bold text-gray-200">About The Attorney General’s Department</h1>
-                <p data-aos="fade-left" class="text-gray-200 text-xl text-gray-300"><strong>Our Goal:</strong> To provide quality advice and legal services to the Government and the people of Ghana.</p>
+                <h1 data-aos="fade-right" class="text-5xl font-bold text-gray-200">The Chief Director</h1>
+                <p data-aos="fade-left" class="text-gray-200 text-xl text-gray-300">About the Ministry</p>
             </div>
             <!-- End page title -->
 

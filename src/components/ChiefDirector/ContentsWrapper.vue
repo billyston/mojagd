@@ -11,9 +11,21 @@
         <main-header></main-header>
         <!-- End top nav bar -->
 
+        <!-- Begin breadcrumb -->
+        <bread-crumb></bread-crumb>
+        <!-- End breadcrumb -->
 
-        <div class="h-96"></div>
+        <!-- Begin page title -->
+        <page-title></page-title>
+        <!-- End page title -->
 
+        <!-- Begin profile -->
+        <chief-profile></chief-profile>
+        <!-- End profile -->
+
+        <!-- Begin our mission -->
+        <our-mission></our-mission>
+        <!-- End our mission -->
 
         <!-- Begin newsletter section -->
         <newsletter-section></newsletter-section>
@@ -31,13 +43,17 @@
 <script>
     import NavBar from "@/components/Shared/NavBar";
     import MainHeader from "@/components/Shared/MainHeader";
+    import BreadCrumb from "@/components/ChiefDirector/BreadCrumb";
+    import PageTitle from "@/components/ChiefDirector/PageTitle";
+    import ChiefProfile from "@/components/ChiefDirector/ChiefProfile";
     import NewsletterSection from "@/components/Shared/NewsletterSection";
+    import OurMission from "@/components/Shared/OurMission";
     import MainFooter from "@/components/Shared/MainFooter";
 
     export default
     {
         name: "ContentsWrapper",
-        components: { NavBar, MainHeader, NewsletterSection, MainFooter }
+        components: { NavBar, MainHeader, BreadCrumb, PageTitle, ChiefProfile, OurMission, NewsletterSection, MainFooter }
     }
 </script>
 

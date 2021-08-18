@@ -56,7 +56,7 @@
     import Introduction from "@/components/About/Introduction";
     import OurHistory from "@/components/About/OurHistory";
     import OurObjectives from "@/components/About/OurObjectives";
-    import OurMission from "@/components/About/OurMission";
+    import OurMission from "@/components/Shared/OurMission";
     import NewsletterSection from "@/components/Shared/NewsletterSection";
     import MainFooter from "@/components/Shared/MainFooter";
 

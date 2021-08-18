@@ -1,7 +1,7 @@
 <template>
 
     <!-- Begin contents -->
-    <section class="flex bg-mojagd-primary 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden relative">
+    <section class="flex bg-mojagd-primary relative overflow-hidden 2xl:block xl:block lg:block md:hidden sm:hidden xs:hidden relative">
         <div data-aos="fade-in" class="w-8/12 mx-auto px-1.5">
             <div class="py-32">
                 <div class="relative top-0 bg-red rounded-full">
